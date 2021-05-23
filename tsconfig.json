@@ -24,8 +24,8 @@
       "@/modules/*": ["modules/*"],
       "@/pages/*": ["pages/*"],
       "@/styles/*": ["styles/*"],
-      "@/tests": ["tests/*"],
-      "@/types": ["types/*"],
+      "@/tests/*": ["tests/*"],
+      "@/types/*": ["types/*"],
       "@/utils/*": ["utils/*"]
     },
     "typeRoots": ["types/", "node_modules/@types"]

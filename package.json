@@ -16,9 +16,13 @@
     "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.5.1",
     "next": "10.2.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
@@ -28,7 +32,9 @@
     "@storybook/react": "^6.2.9",
     "@types/jest": "^26.0.23",
     "@types/react": "17.0.6",
+    "@types/react-redux": "^7.1.16",
     "@types/react-test-renderer": "^17.0.1",
+    "@types/redux-logger": "^3.0.8",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",
     "babel-jest": "^26.6.3",
