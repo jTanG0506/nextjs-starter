@@ -5,9 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prepare": "husky install",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
+    "lint": "eslint --ext js,jsx,ts,tsx --fix",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
+    "lint-staged": "^11.0.0",
     "next": "10.2.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
@@ -22,6 +27,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^6.0.0",
     "prettier": "^2.3.0",
     "typescript": "4.2.4"
   }
