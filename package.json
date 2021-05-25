@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "nextjs-starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,9 +17,12 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
+    "i18next": "^20.3.0",
+    "i18next-browser-languagedetector": "^6.1.1",
     "next": "10.2.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-i18next": "^11.8.15",
     "react-redux": "^7.2.4",
     "redux": "^4.1.0",
     "redux-persist": "^6.0.0"

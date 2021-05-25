@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { useTranslation } from 'react-i18next'
 import styles from '../styles/Home.module.css'
 
 const Home = (): JSX.Element => {
+  const { t } = useTranslation()
   return (
     <div className={styles.container}>
       <Head>
@@ -12,9 +14,7 @@ const Home = (): JSX.Element => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>{t('name')}</h1>
 
         <p className={styles.description}>
           Get started by editing{' '}
